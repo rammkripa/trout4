@@ -1,7 +1,7 @@
 # ---
 # jupyter:
 #   jupytext:
-#     formats: ipynb,Rmd,py:light
+#     formats: ipynb,py:light
 #     text_representation:
 #       extension: .py
 #       format_name: light
@@ -34,5 +34,7 @@ iris['species'].value_counts()
 iris['species']
 
 sns.displot(iris['sepal_length'])
+
+sns.scatterplot(x = iris['sepal_length'], y = iris['sepal_width'])
 
 
