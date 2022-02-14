@@ -42,3 +42,9 @@ sns.scatterplot(x = iris['sepal_length'], y = iris['sepal_width'])
 # -
 # ### Hellow World ###
 
+
+def func(x):
+    return x**4
+
+
+func(4)
