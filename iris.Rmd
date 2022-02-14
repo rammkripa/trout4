@@ -1,0 +1,60 @@
+---
+jupyter:
+  jupytext:
+    formats: ipynb,Rmd,py:light
+    text_representation:
+      extension: .Rmd
+      format_name: rmarkdown
+      format_version: '1.2'
+      jupytext_version: 1.11.5
+  kernelspec:
+    display_name: Python 3 (ipykernel)
+    language: python
+    name: python3
+---
+
+```{python}
+import pandas as pd
+```
+
+```{python}
+import seaborn as sns
+```
+
+```{python}
+iris = sns.load_dataset("iris")
+iris.head()
+```
+
+```{python}
+sns.displot(iris['petal_width'])
+```
+
+```{python}
+import numpy as np
+np.average(iris['petal_width'])
+```
+
+```{python}
+print("hello world")
+```
+
+```{python}
+iris['sepal_length'].median()
+```
+
+```{python}
+iris['species'].value_counts()
+```
+
+```{python}
+iris['species']
+```
+
+```{python}
+sns.displot(iris['sepal_length'])
+```
+
+```{python}
+
+```
